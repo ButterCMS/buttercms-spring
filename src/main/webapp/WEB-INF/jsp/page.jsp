@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <meta>
-<title>Page Title</title>
+<title>${page.seoTitle}</title>
 <meta property="og:title" content="${page.openGraphTitle}"/>
 <meta property="og:image" content="${page.customerLogo}"/>
 </head>
