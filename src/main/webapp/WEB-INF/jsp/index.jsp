@@ -7,13 +7,13 @@
 </head>
 <body>
 <h2 class="hello-title">Hello! This is Java ButterCMS example!</h2>
-<h3>Here is a list of Pages</h3>
+<h3>Here is the list of example links</h3>
 <ul>
-    <c:forEach items="${pages}" var="page">
-        <li><a href="/page/${page["pageType"]}/${page["slug"]}">${page["headline"]}</a></li>
-    </c:forEach>
+    <li><a href="/pages">Pages</a></li>
+    <li><a href="/blogs">Blogs</a></li>
+    <li><a href="/authors">Authors</a></li>
+    <li><a href="/blogs/categories">Blog Categories</a></li>
+    <li><a href="/blogs/tags">Blog Tags</a></li>
 </ul>
-
-<h3>Here is a list of <a href="/blog">Blogs</a></h3>
 </body>
 </html>
