@@ -7,10 +7,10 @@
 </head>
 <body>
 <h2 class="hello-title">Hello! This is Java ButterCMS example!</h2>
-<h3>Here is a list of Posts</h3>
+<h3>Here is a list of all Blog categories</h3>
 <ul>
-    <c:forEach items="${blogs}" var="blog">
-        <li><a href="/blog/${blog["slug"]}">${blog["title"]}</a></li>
+    <c:forEach items="${categories}" var="category">
+        <li><a href="/blogs?category=${category.slug}">${category.name}</a></li>
     </c:forEach>
 </ul>
 </body>
