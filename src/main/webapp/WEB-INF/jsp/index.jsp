@@ -14,6 +14,9 @@
     <li><a href="/authors">Authors</a></li>
     <li><a href="/blogs/categories">Blog Categories</a></li>
     <li><a href="/blogs/tags">Blog Tags</a></li>
+    <li><a href="/feed/atom">Atom Feed</a></li>
+    <li><a href="/feed/rss">RSS Feed</a></li>
+    <li><a href="/feed/sitemap">SiteMap</a></li>
 </ul>
 </body>
 </html>
